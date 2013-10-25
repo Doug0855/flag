@@ -9,6 +9,7 @@ public class Flag extends Applet {
 		flag = new AmericanFlag(50, 50, 1.0);
 	}
 
+
 	public void paint(Graphics g) {
 		flag.draw(g);
 	}
